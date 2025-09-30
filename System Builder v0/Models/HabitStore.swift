@@ -26,6 +26,7 @@ final class HabitStore: ObservableObject {
 
     func rename(_ habit: Habit, to newName: String) {
         guard let i = index(of: habit) else { return }
+        
         habits[i].name = newName
         save()
     }

@@ -52,3 +52,7 @@ struct HabitsListView: View {
         }
     }
 }
+
+#Preview{
+    HabitsListView()
+}
